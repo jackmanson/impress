@@ -29,7 +29,7 @@
 	    // for demonstration purposes, we simply show the "you are not logged in" view.
 	*/
 
-	$title = "junglafari.com";
+	$title = "impresstotal.com";
 ?>
 
 <!DOCTYPE HTML>
@@ -46,12 +46,12 @@
 		<!-- Header -->
 			<header id="header">
 				<h1 class="fuenteOficial">IMPRESS++</h1>
-				<p>Lo que podemos hacemos es darte lo mejor de nosotros<br />
-				con calidad y buen precio.</p>
+				<p>Potenciamos su producción de venta con etiquetas hangtags<br />
+				de calidad y buen precio.</p>
 			</header>
 
 		<!-- Signup Form -->
-			<form id="signup-form" method="post" action="#">
+			<form id="signup-form" method="post" action="processar.php">
 				<input type="email" name="email" id="email" placeholder="Tú email y te respondemos." />
 				<!--<input type="password" name="clave" id="" placeholder="Contraseña" />-->
 				<input type="submit" value="Enviar" />
